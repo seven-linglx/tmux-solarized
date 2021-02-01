@@ -3,7 +3,7 @@ tmux-solarized
 
 A Solarized Light Tmux Theme. Fork from mkoga/tmux-solarized, I customized it to adapte to tmux > 2.9, and add status change when tmux prefix click.
 
-Installing
+# Installing
 
 ### Manual Installation
 
