@@ -34,7 +34,8 @@ set -g status-left "#[fg=white,bg=colour61,nobold]#{?client_prefix,#[bg=yellow],
 # set -g status-right-fg colour243
 set -g status-right-style "bg=white,fg=colour243"
 set -g status-right-length 150
-set -g status-right "#[fg=colour245,bg=white]#[fg=white,bg=colour245] %H:%M:%S #[fg=white,bg=colour245]#[fg=colour245,bg=white] %d-%b-%y #[fg=white,bg=colour245]"
+# %y年 %m数字月%b英文月 %d数字日期 %a星期 %A星期全称 %F等效于“%Y-%m-%d”，如"2019-01-19"
+set -g status-right "#[fg=colour245,bg=white]#[fg=white,bg=colour245] %H:%M:%S #[fg=white,bg=colour245]#[fg=colour245,bg=white] %A %F #[fg=white,bg=colour245]"
 
 # Window status
 set -g window-status-format "#[fg=colour243] #I #W  "
